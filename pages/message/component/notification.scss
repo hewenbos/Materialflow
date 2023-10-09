@@ -1,0 +1,102 @@
+.notification {
+	height: 100%;
+	.Allread {
+		padding: 42rpx 34rpx;
+		font-size: $uni-mainBody-fontsize;
+		color: $uni-neutral-SecondaryText-color;
+		.icon-clear {
+			margin-right: 18rpx;
+		}
+	}
+
+	.notificationList {
+		padding: 0 34rpx;
+		.uni-list {
+			border-radius: 20rpx;
+			padding: 5rpx;
+			margin-bottom: 30rpx;
+		}
+	}
+	.uni-list-item {
+		position: relative;
+		.lod {
+			width: 16rpx;
+			height: 16rpx;
+			background: #ef4f3f;
+			border: 2rpx solid #ffffff;
+			border-radius: 50%;
+			position: absolute;
+			left: 290rpx;
+			top: 34rpx;
+		}
+		::v-deep .uni-list-item__content-title {
+			width: 400rpx;
+
+			color: $uni-neutral-SecondaryText-color;
+			font-size: $uni-paravence-fontsize;
+		}
+		::v-deep .uni-list-item__extra-text {
+			width: 300rpx;
+			text-align: right;
+			color: $uni-neutral-SecondaryText-color;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			font-size: $uni-paravence-fontsize;
+		}
+		.header {
+			.slot-text {
+				font-size: $uni-mainBody-fontsize;
+				color: $uni-neutral-mainText-color;
+			}
+		}
+
+		.btnDetail {
+			border: 2rpx solid $uni-main-primary;
+			width: 152rpx;
+			height: 48rpx;
+			border-radius: 24rpx;
+			font-family: PingFangSC-Regular;
+			font-weight: 400;
+			font-size: 15rpx;
+			padding: 0 5rpx;
+			line-height: 48rpx;
+			color: $uni-main-primary;
+		}
+	}
+}
+
+.scroll-view {
+	height: 100%;
+	overflow: hidden;
+}
+
+.toops {
+	text-align: center;
+	padding: 20rpx 0;
+	font-size: $uni-mainBody-fontsize;
+	color: $uni-neutral-SecondaryText-color;
+}
+.footer {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	image {
+		width: 400rpx;
+		height: 240rpx;
+	}
+	text {
+		font-family: PingFangSC-Regular;
+		font-weight: 400;
+		font-size: 28rpx;
+		color: #818181;
+		display: inline-block;
+		margin-top: 40rpx;
+	}
+}

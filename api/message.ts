@@ -20,7 +20,11 @@ export const getMessageListApi = (data: MessageListType) => {
 
 //全部已读
 export const getMessageAllReadApi = (contentType: string | number) => {
-	return uniFetch({
+	return uniFetch<{
+		code: number
+		data?: [] | null
+		msg: string
+	}>({
 		url: `/driver/messages/readAll/${contentType}`,
 		method: 'PUT',
 	})

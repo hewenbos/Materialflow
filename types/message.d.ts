@@ -8,7 +8,7 @@ export type MessageListType = {
 //分页查询消息列表 响应数据
 export type MessageListResponse = {
 	counts: string | number
-	items: itemsData
+	items: itemsData[]
 	page: string | number
 	pageSize: string | number
 	pages: string | number

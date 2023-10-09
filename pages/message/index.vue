@@ -45,40 +45,5 @@
 </script>
 
 <style lang="scss">
-	.tab {
-		height: 88rpx;
-		background-color: $uni-neutral-whiteColor;
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-		.tab-item {
-			font-size: $uni-mainBody-fontsize;
-			color: $uni-neutral-SecondaryText-color;
-			display: flex;
-			align-items: center;
-			flex-direction: column;
-			&.active {
-				font-family: PingFangSC-Medium;
-				font-weight: 600;
-				font-size: 28rpx;
-				position: relative;
-				color: #2a2929;
-				&::after {
-					content: '';
-					width: 100%;
-					position: absolute;
-					margin-top: 58rpx;
-					height: 8rpx;
-					border-radius: 20rpx;
-					background-color: $uni-main-primary;
-				}
-			}
-		}
-	}
-	.app-main {
-		height: calc(100vh - 94px);
-		.list {
-			height: 100%;
-		}
-	}
+	@import './index.scss';
 </style>

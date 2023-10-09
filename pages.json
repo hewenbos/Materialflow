@@ -32,25 +32,35 @@
 		}
 	],
 	"subPackages": [{
-		"root": "subpck_user",
-		"pages": [{
-			"path": "settings/index",
-			"style": {
-				"navigationBarTitleText": "系统设置"
-			}
-		}, {
-			"path": "task/index",
-			"style": {
-				"navigationBarTitleText": "车辆信息",
-				"navigationBarBackgroundColor": "#fff"
-			}
-		}, {
-			"path": "tuck/index",
-			"style": {
-				"navigationBarTitleText": "任务数据"
-			}
-		}]
-	}],
+			"root": "subpck_user",
+			"pages": [{
+				"path": "settings/index",
+				"style": {
+					"navigationBarTitleText": "系统设置"
+				}
+			}, {
+				"path": "task/index",
+				"style": {
+					"navigationBarTitleText": "车辆信息",
+					"navigationBarBackgroundColor": "#fff"
+				}
+			}, {
+				"path": "tuck/index",
+				"style": {
+					"navigationBarTitleText": "任务数据"
+				}
+			}]
+		},
+		{
+			"root": "subpck_message",
+			"pages": [{
+				"path": "detail/index",
+				"style": {
+					"navigationBarTitleText": "详情"
+				}
+			}]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "神领快递",
