@@ -1,0 +1,98 @@
+
+.app-main {
+	/* #ifndef H5 */
+	height: calc(100vh - 50px);
+	/* #endif */
+	height: calc(100vh - 50px);
+	background-color: $uni-neutral-background;
+}
+.navigatorBar {
+	width: 100%;
+	height: 582.5rpx;
+	background: url(@/static/images/img-bg.png) no-repeat;
+	background-position: 0 -4rpx;
+	background-size: 100% 100%;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	.main {
+		width: 100%;
+		height: 582.5rpx;
+		padding-top: 88rpx;
+		text-align: center;
+		.userimg {
+			width: 134.52rpx;
+			height: 132.16rpx;
+		}
+		.nameBox {
+			margin-top: 17rpx;
+		}
+		.name {
+			font-family: PingFangSC-SNaNrpxibold;
+			font-weight: 600;
+			font-size: $uni-title-fontsize;
+			color: $uni-neutral-whiteColor;
+			letter-spacing: 0.42rpx;
+			text-align: center;
+		}
+		.detail {
+			margin-top: 16rpx;
+			font-size: $uni-mainBody-fontsize;
+			color: $uni-neutral-whiteColor;
+			font-family: PingFangSC-Regular;
+			font-weight: 400;
+			letter-spacing: 0.32rpx;
+		}
+		.id {
+			margin-top: 15rpx;
+		}
+		.phone {
+			margin-top: 15rpx;
+		}
+	}
+	.monthQuest {
+		width: 100%;
+		height: 268rpx;
+		background: #ffffff;
+		border-radius: 16rpx;
+		margin: 0 auto;
+		margin-top: -240rpx;
+		box-sizing: border-box;
+
+		.title {
+			text-align: center;
+			font-size: $uni-mainBody-fontsize;
+			padding-top: 27rpx;
+			color: $uni-neutral-SecondaryText-color;
+		}
+
+		.questList {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			margin-top: 61rpx;
+			.questItem {
+				text-align: center;
+				width: 158rpx;
+				.number {
+					font-family: PingFangSC-SNaNrpxibold;
+					font-weight: 600;
+					font-size: $uni-title-fontsize;
+					letter-spacing: 0.42rpx;
+				}
+				.amount {
+					font-family: PingFangSC-Regular;
+					font-weight: 400;
+					font-size: 24rpx;
+					letter-spacing: 0.42rpx;
+				}
+			}
+		}
+	}
+}
+
+.cellBox {
+	margin-top: 30rpx;
+	border-radius: 16rpx;
+	padding: 0rpx 25rpx 0rpx 35rpx;
+	background-color: $uni-neutral-whiteColor;
+}

@@ -1,0 +1,23 @@
+{
+  "hash": "605e1b24",
+  "browserHash": "07737956",
+  "optimized": {
+    "pinia-plugin-persistedstate": {
+      "src": "../../node_modules/.pnpm/pinia-plugin-persistedstate@3.2.0_pinia@2.1.6/node_modules/pinia-plugin-persistedstate/dist/index.mjs",
+      "file": "pinia-plugin-persistedstate.js",
+      "fileHash": "04210e7d",
+      "needsInterop": false
+    },
+    "uni-app-fetch": {
+      "src": "../../node_modules/.pnpm/uni-app-fetch@0.0.3/node_modules/uni-app-fetch/dist/index.js",
+      "file": "uni-app-fetch.js",
+      "fileHash": "a94c2ab6",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-RSJERJUL": {
+      "file": "chunk-RSJERJUL.js"
+    }
+  }
+}

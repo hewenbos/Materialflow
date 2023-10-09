@@ -1,0 +1,60 @@
+::v-deep {
+	.is-input-border {
+		border: none;
+		border-bottom: 1rpx solid #f4f4f4;
+		border-radius: 0rpx;
+		caret-color: $uni-main-primary;
+		color: $uni-neutral-mainText-color;
+		padding-bottom: 20rpx;
+	}
+	.uni-easyinput__content-input {
+		padding-left: 0rpx !important;
+	}
+	.is-focused {
+		border-color: $uni-main-primary !important;
+	}
+	.uni-icons {
+		display: none;
+	}
+
+	.uni-forms-item__error {
+		margin-top: 13rpx;
+		/* #ifdef APP */
+		font-size: 30rpx;
+		/* #endif */
+		/* #ifdef H5 */
+		font-size: 20rpx;
+		/* #endif */
+	}
+	.uni-forms-item__content {
+		margin: 10rpx 0;
+	}
+	.uni-button:after {
+		border: none !important;
+	}
+}
+
+.loginBtn {
+	width: 618rpx;
+	height: 86rpx;
+	background: $uni-main-primary;
+
+	border-radius: 49.54rpx;
+	line-height: 86rpx;
+	margin-top: 90rpx;
+
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	font-size: 36rpx;
+	color: $uni-neutral-whiteColor;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+button:after {
+	border: none;
+}
+button[disabled] {
+	background-color: #fadcd9;
+	color: $uni-neutral-whiteColor;
+}

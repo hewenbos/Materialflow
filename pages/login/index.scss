@@ -1,0 +1,48 @@
+.login-main {
+	padding: 0 64rpx;
+}
+
+/* #ifdef H5 */
+
+/* #endif */
+
+.loginTop {
+	margin-top: 58.56rpx;
+	height: 66rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	position: relative;
+	.switchaccount {
+		width: 160rpx;
+		font-family: PingFangSC-Medium;
+		font-weight: 500;
+		font-size: 30rpx;
+		color: $uni-main-primary;
+		letter-spacing: 0;
+		text-align: right;
+	}
+	.loginMethod {
+		width: 240rpx;
+		font-family: PingFangSC-SNaNrpxibold;
+		font-weight: 600;
+		font-size: 36rpx;
+		color: $uni-neutral-mainText-color;
+		letter-spacing: 0;
+	}
+	.loginimg {
+		width: 20rpx;
+		height: 20rpx;
+		position: absolute;
+		right: -28rpx;
+		/* #ifdef APP */
+		top: 33rpx;
+		/* #endif */
+		/* #ifdef H5 */
+		top: 37rpx;
+		/* #endif */
+	}
+}
+.loginFrom {
+	margin-top: 97rpx;
+}
