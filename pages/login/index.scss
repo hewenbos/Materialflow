@@ -7,7 +7,7 @@
 /* #endif */
 
 .loginTop {
-	margin-top: 58.56rpx;
+	padding-top: 58.56rpx;
 	height: 66rpx;
 	display: flex;
 	justify-content: space-between;
@@ -36,10 +36,10 @@
 		position: absolute;
 		right: -28rpx;
 		/* #ifdef APP */
-		top: 33rpx;
+		top: 93rpx;
 		/* #endif */
 		/* #ifdef H5 */
-		top: 37rpx;
+		top: 97rpx;
 		/* #endif */
 	}
 }

@@ -43,7 +43,7 @@
 							<button
 								plain
 								class="btnDetail"
-								@click="goDetail(item.id)"
+								@click="goDetail(item.relevantId)"
 							>
 								查看详情
 							</button>
@@ -131,7 +131,7 @@
 
 	const goDetail = (id: string | number) => {
 		uni.navigateTo({
-			url: `/subpck_message/detail/index?id=${id}&type=${'201'}`,
+			url: `/subpck_task/detail/index?id=${id}&type=${'201'}`,
 		})
 	}
 </script>

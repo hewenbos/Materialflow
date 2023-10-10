@@ -25,7 +25,7 @@
 		}, {
 			"path": "pages/task/index",
 			"style": {
-
+				"navigationStyle": "custom",
 				"enablePullDownRefresh": false
 			}
 
@@ -57,6 +57,27 @@
 				"path": "detail/index",
 				"style": {
 					"navigationBarTitleText": "详情"
+				}
+			}]
+		},
+		{
+			"root": "subpck_task",
+			"pages": [{
+				"path": "detail/index",
+				"style": {
+					"navigationBarTitleText": "任务详情"
+				}
+			}, {
+
+				"path": "addtask/index",
+				"style": {
+					"navigationBarTitleText": "提交任务"
+				}
+			}, {
+
+				"path": "taskdetail/index",
+				"style": {
+					"navigationBarTitleText": "任务详情"
 				}
 			}]
 		}

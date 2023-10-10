@@ -1,0 +1,171 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 页面主色 */
+/* 辅助色 */
+/* 中性色 */
+/* 文字 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.app-main {
+  padding: 0.9375rem;
+  box-sizing: border-box;
+  height: calc(100vh - 45px);
+  overflow: scroll;
+}
+.app-main .infoList {
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+  margin-bottom: 0.9375rem;
+  padding: 0.9375rem 1.25rem;
+}
+.app-main .infoList .information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.875rem;
+}
+.app-main .infoList .information .info {
+  font-family: PingFangSC-Medium;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2a2929;
+  margin-right: 0.3125rem;
+}
+.app-main .infoList .information .transportTask {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #818181;
+}
+.app-main .infoList .information .icon-add {
+  font-size: 1.40625rem;
+  font-weight: 600;
+}
+.app-main .infoList .information .icon-Reduction {
+  font-size: 1.40625rem;
+  font-weight: 600;
+}
+.app-main .infoList .Driverinfor .cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app-main .infoList .Driverinfor .cart .title {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #818181;
+}
+.app-main .infoList .Driverinfor .cart .dose {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #2a2929;
+}
+.app-main .infoList .Driverinfor .Licenseplatenumber {
+  margin: 0.875rem 0;
+}
+.app-main .infoList .Transportroute {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+.app-main .infoList .Transportroute .cart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 6.25rem;
+  text-align: center;
+}
+.app-main .infoList .Transportroute .cart .title {
+  font-family: PingFangSC-SNaNrpxibold;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2a2929;
+}
+.app-main .infoList .Transportroute .cart .dose {
+  width: 100%;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #2a2929;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  margin-top: 0.1875rem;
+}
+.app-main .infoList .Transportroute .icon-Right {
+  font-size: 2.03125rem;
+  color: #818181;
+}
+.app-main .infoList .Deliveryinformation .Receiptvoucher {
+  margin-top: 1.59375rem;
+}
+.app-main .infoList .Deliveryinformation .product {
+  margin-top: 1.59375rem;
+}
+.app-main .infoList .Deliveryinformation .ReceiptImg {
+  margin-top: 1rem;
+}
+.app-main .infoList .Deliveryinformation .ReceiptImg .img {
+  width: 5.97938rem;
+  height: 5.97938rem;
+  border-radius: 0.3125rem;
+}
+.app-main .infoList .Deliveryinformation .title {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #818181;
+}
+.app-main .infoList .abnormalCart {
+  border-bottom: 0.03125rem solid #f4f4f4;
+  padding: 0.3125rem 0;
+}
+.app-main .infoList .abnormalCart .cart {
+  display: flex;
+  align-items: center;
+  margin: 1.125rem 0;
+}
+.app-main .infoList .abnormalCart .cart .title {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #2a2929;
+  margin-right: 1.03125rem;
+}
+.app-main .infoList .abnormalCart .cart .dose {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #818181;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.app-main .infoList .abnormalCart .cart .icon-left {
+  flex: 1;
+  text-align: right;
+  color: #818181;
+}

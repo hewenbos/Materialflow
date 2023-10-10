@@ -30,10 +30,13 @@
 /* 透明度 */
 /* 文章场景相关 */
 /*每个页面公共css */
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
   font-family: "iconfont";
   /* Project id 4276529 */
-  src: url("//at.alicdn.com/t/c/font_4276529_o76k60lbpi8.woff2?t=1696772049517") format("woff2"), url("//at.alicdn.com/t/c/font_4276529_o76k60lbpi8.woff?t=1696772049517") format("woff"), url("//at.alicdn.com/t/c/font_4276529_o76k60lbpi8.ttf?t=1696772049517") format("truetype");
+  src: url("//at.alicdn.com/t/c/font_4276529_9h2xkaiztuf.woff2?t=1696918925191") format("woff2"), url("//at.alicdn.com/t/c/font_4276529_9h2xkaiztuf.woff?t=1696918925191") format("woff"), url("//at.alicdn.com/t/c/font_4276529_9h2xkaiztuf.ttf?t=1696918925191") format("truetype");
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -47,4 +50,25 @@
 }
 .icon-top:before {
   content: "\e600";
+}
+.icon-clear:before {
+  content: "\e621";
+}
+.icon-add:before {
+  content: "\e727";
+  color: #ef4f3f;
+}
+.icon-Reduction:before {
+  content: "\e729";
+  color: #ef4f3f;
+}
+.icon-Right:before {
+  content: "\e632";
+}
+.app-main {
+
+  height: calc(100vh - 50px);
+
+  height: calc(100vh - 50px);
+  background-color: #f4f4f4;
 }

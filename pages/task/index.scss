@@ -1,0 +1,41 @@
+.app-mains {
+	height: calc(100vh - 53px);
+	background-color: #f4f4f4;
+}
+.tab {
+	height: 88rpx;
+	background-color: $uni-neutral-whiteColor;
+	display: flex;
+	align-items: center;
+	padding: 15rpx 61rpx 0;
+	.tab-item {
+		font-size: $uni-mainBody-fontsize;
+		color: $uni-neutral-SecondaryText-color;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-right: 72rpx;
+		&.active {
+			font-family: PingFangSC-Medium;
+			font-weight: 600;
+			font-size: 28rpx;
+			position: relative;
+			color: #2a2929;
+			&::after {
+				content: '';
+				width: 100%;
+				position: absolute;
+				margin-top: 58rpx;
+				height: 8rpx;
+				border-radius: 20rpx;
+				background-color: $uni-main-primary;
+			}
+		}
+	}
+}
+.app-mains {
+	height: calc(100vh - 58px);
+	.list {
+		height: calc(100vh - 110px);
+	}
+}

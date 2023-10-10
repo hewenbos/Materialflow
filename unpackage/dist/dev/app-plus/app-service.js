@@ -1228,7 +1228,7 @@ if (uni.restoreGlobal) {
     const reg = /^[0-9]*$/g;
     return typeof val === "number" || reg.test(val) ? val + "px" : val;
   };
-  const _sfc_main$a = {
+  const _sfc_main$n = {
     name: "UniIcons",
     emits: ["click"],
     props: {
@@ -1272,7 +1272,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock(
       "text",
       {
@@ -1285,7 +1285,7 @@ if (uni.restoreGlobal) {
       /* CLASS, STYLE */
     );
   }
-  const __easycom_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["render", _sfc_render$6], ["__scopeId", "data-v-d31e1c47"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-icons/components/uni-icons/uni-icons.vue"]]);
+  const __easycom_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["render", _sfc_render$a], ["__scopeId", "data-v-d31e1c47"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-icons/components/uni-icons/uni-icons.vue"]]);
   function obj2strClass(obj) {
     let classess = "";
     for (let key in obj) {
@@ -1304,7 +1304,7 @@ if (uni.restoreGlobal) {
     }
     return style;
   }
-  const _sfc_main$9 = {
+  const _sfc_main$m = {
     name: "uni-easyinput",
     emits: ["click", "iconClick", "update:modelValue", "input", "focus", "blur", "confirm", "clear", "eyes", "change", "keyboardheightchange"],
     model: {
@@ -1637,8 +1637,8 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_uni_icons = resolveEasycom(vue.resolveDynamicComponent("uni-icons"), __easycom_0$1);
+  function _sfc_render$9(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_icons = resolveEasycom(vue.resolveDynamicComponent("uni-icons"), __easycom_0$2);
     return vue.openBlock(), vue.createElementBlock(
       "view",
       {
@@ -1758,8 +1758,8 @@ if (uni.restoreGlobal) {
       /* CLASS, STYLE */
     );
   }
-  const __easycom_0 = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$5], ["__scopeId", "data-v-09fd5285"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput.vue"]]);
-  const _sfc_main$8 = {
+  const __easycom_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["render", _sfc_render$9], ["__scopeId", "data-v-09fd5285"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput.vue"]]);
+  const _sfc_main$l = {
     name: "uniFormsItem",
     options: {
       virtualHost: true
@@ -2091,7 +2091,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$4(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$8(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock(
       "view",
       {
@@ -2147,7 +2147,7 @@ if (uni.restoreGlobal) {
       /* CLASS */
     );
   }
-  const __easycom_1 = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["render", _sfc_render$4], ["__scopeId", "data-v-462874dd"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item.vue"]]);
+  const __easycom_1$2 = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["render", _sfc_render$8], ["__scopeId", "data-v-462874dd"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item.vue"]]);
   var pattern = {
     email: /^\S+?@\S+?\.\S+?$/,
     idcard: /^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$/,
@@ -2711,7 +2711,7 @@ if (uni.restoreGlobal) {
       return false;
     }
   };
-  const _sfc_main$7 = {
+  const _sfc_main$k = {
     name: "uniForms",
     emits: ["validate", "submit"],
     options: {
@@ -3008,14 +3008,14 @@ if (uni.restoreGlobal) {
       _isEqual: isEqual
     }
   };
-  function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "uni-forms" }, [
       vue.createElementVNode("form", null, [
         vue.renderSlot(_ctx.$slots, "default", {}, void 0, true)
       ])
     ]);
   }
-  const __easycom_2 = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["render", _sfc_render$3], ["__scopeId", "data-v-9a1e3c32"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-forms/components/uni-forms/uni-forms.vue"]]);
+  const __easycom_2 = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["render", _sfc_render$7], ["__scopeId", "data-v-9a1e3c32"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-forms/components/uni-forms/uni-forms.vue"]]);
   var dist = {};
   Object.defineProperty(dist, "__esModule", { value: true });
   var createUniFetch_1 = dist.createUniFetch = void 0;
@@ -4517,6 +4517,7 @@ This will fail in production.`);
       }
     }
   );
+  const whitList = ["pages/message/index", "pages/task/index", "pages/my/index"];
   const uniFetch = createUniFetch_1({
     loading: { title: "加载中..." },
     baseURL: "https://slwl-api.itheima.net",
@@ -4532,12 +4533,19 @@ This will fail in production.`);
       },
       // 响应拦截器
       response(response) {
-        formatAppLog("log", "at utils/request.ts:23", response);
+        formatAppLog("log", "at utils/request.ts:25", response);
         if (response.statusCode === 200 && response.data.code === 200) {
           return response;
         }
-        if (response.statusCode === 401)
-          ;
+        if (response.statusCode === 401) {
+          const PathRouteList = getCurrentPages();
+          const redirectTo = PathRouteList[PathRouteList.length - 1].route;
+          formatAppLog("log", "at utils/request.ts:34", redirectTo);
+          const pathType = whitList.includes(redirectTo) ? "switchTab" : "redirectTo";
+          return uni.navigateTo({
+            url: `/pages/login/login?redirectTo=/${redirectTo}&pathType=${pathType}`
+          });
+        }
         uni.utils.Toast(response.data.msg || "请求失败");
       }
     }
@@ -4549,19 +4557,15 @@ This will fail in production.`);
       data
     });
   };
-  const utils = {
-    Toast(title, icon = "none") {
-      uni.showToast({
-        title,
-        icon,
-        mask: true
-      });
-    }
-  };
-  uni.utils = utils;
-  const _sfc_main$6 = /* @__PURE__ */ vue.defineComponent({
+  const _sfc_main$j = /* @__PURE__ */ vue.defineComponent({
     __name: "accountLogin",
     setup(__props) {
+      const redirectTo = vue.ref();
+      const pathType = vue.ref();
+      onLoad((e) => {
+        redirectTo.value = e.redirectTo;
+        pathType.value = e.pathType;
+      });
       const user = useUserStore();
       const formData = vue.reactive({
         password: "",
@@ -4598,22 +4602,27 @@ This will fail in production.`);
         try {
           const reslust = await form.value.validate();
           const { data } = await getLoginAccountApi(reslust);
-          formatAppLog("log", "at pages/login/component/accountLogin.vue:76", reslust);
-          formatAppLog("log", "at pages/login/component/accountLogin.vue:77", data);
+          formatAppLog("log", "at pages/login/component/accountLogin.vue:84", reslust);
+          formatAppLog("log", "at pages/login/component/accountLogin.vue:85", data);
           user.token = data.data;
           if (data.code === 200) {
-            utils.Toast(data.msg);
-            uni.switchTab({
-              url: "/pages/my/index"
-            });
+            if (pathType.value) {
+              uni[pathType.value]({
+                url: redirectTo.value
+              });
+            } else {
+              uni.switchTab({
+                url: "/pages/task/index"
+              });
+            }
           }
         } catch (e) {
-          formatAppLog("log", "at pages/login/component/accountLogin.vue:88", e);
+          formatAppLog("log", "at pages/login/component/accountLogin.vue:102", e);
         }
       };
       return (_ctx, _cache) => {
-        const _component_uni_easyinput = resolveEasycom(vue.resolveDynamicComponent("uni-easyinput"), __easycom_0);
-        const _component_uni_forms_item = resolveEasycom(vue.resolveDynamicComponent("uni-forms-item"), __easycom_1);
+        const _component_uni_easyinput = resolveEasycom(vue.resolveDynamicComponent("uni-easyinput"), __easycom_0$1);
+        const _component_uni_forms_item = resolveEasycom(vue.resolveDynamicComponent("uni-forms-item"), __easycom_1$2);
         const _component_uni_forms = resolveEasycom(vue.resolveDynamicComponent("uni-forms"), __easycom_2);
         return vue.openBlock(), vue.createElementBlock(
           vue.Fragment,
@@ -4667,8 +4676,8 @@ This will fail in production.`);
       };
     }
   });
-  const accountLogin = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-f212993c"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/login/component/accountLogin.vue"]]);
-  const _sfc_main$5 = /* @__PURE__ */ vue.defineComponent({
+  const accountLogin = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["__scopeId", "data-v-f212993c"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/login/component/accountLogin.vue"]]);
+  const _sfc_main$i = /* @__PURE__ */ vue.defineComponent({
     __name: "login",
     setup(__props) {
       const isPass = vue.ref(0);
@@ -4718,106 +4727,1898 @@ This will fail in production.`);
       };
     }
   });
-  const PagesLoginLogin = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-e4e4508d"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/login/login.vue"]]);
-  const _imports_0 = "/static/images/img-头像.png";
-  const _sfc_main$4 = {};
-  function _sfc_render$2(_ctx, _cache) {
-    return vue.openBlock(), vue.createElementBlock("view", { class: "cell" }, [
-      vue.createElementVNode("text", { class: "info" }, "车辆信息"),
-      vue.createElementVNode("text", { class: "iconfont icon-left" })
-    ]);
-  }
-  const MyCell = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$2], ["__scopeId", "data-v-361a6fd7"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/components/Mycell.vue"]]);
+  const PagesLoginLogin = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["__scopeId", "data-v-e4e4508d"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/login/login.vue"]]);
+  const _sfc_main$h = /* @__PURE__ */ vue.defineComponent({
+    __name: "Mycell",
+    props: {
+      title: { type: String, required: true },
+      to: { type: String, required: true },
+      link: { type: Boolean, required: true }
+    },
+    setup(__props) {
+      const { title, to } = __props;
+      const goRoute = () => {
+        uni.navigateTo({
+          url: to
+        });
+      };
+      return (_ctx, _cache) => {
+        return vue.openBlock(), vue.createElementBlock("view", {
+          class: "cell",
+          onClick: goRoute
+        }, [
+          vue.createElementVNode(
+            "text",
+            { class: "info" },
+            vue.toDisplayString(__props.title),
+            1
+            /* TEXT */
+          ),
+          vue.createElementVNode("text", { class: "iconfont icon-left" })
+        ]);
+      };
+    }
+  });
+  const MyCell = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["__scopeId", "data-v-361a6fd7"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/components/Mycell.vue"]]);
+  const getYearAndTime = () => {
+    const date = /* @__PURE__ */ new Date();
+    let year = date.getFullYear();
+    let month = String(date.getMonth() + 1);
+    if (month.length < 2) {
+      month = "0" + month;
+    }
+    return {
+      year,
+      month
+    };
+  };
   const getUserInfoApi = () => {
     return uniFetch({
       url: "/driver/users",
       method: "GET"
     });
   };
-  const _sfc_main$3 = /* @__PURE__ */ vue.defineComponent({
+  const getMonthTaskApi = (data) => {
+    return uniFetch({
+      url: "/driver/users/taskReport",
+      method: "GET",
+      data
+    });
+  };
+  const _sfc_main$g = /* @__PURE__ */ vue.defineComponent({
     __name: "index",
     setup(__props) {
       const userInfo = vue.ref();
       const getUserInfo = async () => {
         const res = await getUserInfoApi();
-        userInfo.value = res.data;
+        userInfo.value = res.data.data;
       };
-      getUserInfo();
+      const MonthTask = vue.ref();
+      const getMonthTask = async () => {
+        const result = await getMonthTaskApi(getYearAndTime());
+        formatAppLog("log", "at pages/my/index.vue:78", result);
+        MonthTask.value = result.data.data;
+      };
       onLoad(() => {
+        getUserInfo();
+        getMonthTask();
       });
       return (_ctx, _cache) => {
-        return vue.openBlock(), vue.createElementBlock("view", { class: "mymain" }, [
+        return vue.openBlock(), vue.createElementBlock("view", { class: "app-main" }, [
           vue.createElementVNode("view", { class: "navigatorBar" }, [
             vue.createElementVNode("view", { class: "main" }, [
-              vue.createElementVNode("div", { class: "user" }, [
+              userInfo.value ? (vue.openBlock(), vue.createElementBlock("view", {
+                key: 0,
+                class: "user"
+              }, [
                 vue.createElementVNode("image", {
                   class: "userimg",
-                  src: _imports_0,
+                  src: userInfo.value.avatar,
                   mode: ""
-                }),
+                }, null, 8, ["src"]),
                 vue.createElementVNode("view", { class: "nameBox" }, [
-                  vue.createElementVNode("text", { class: "name" }, "李明")
+                  vue.createElementVNode(
+                    "text",
+                    { class: "name" },
+                    vue.toDisplayString(userInfo.value.name),
+                    1
+                    /* TEXT */
+                  )
                 ]),
                 vue.createElementVNode("view", { class: "id" }, [
-                  vue.createElementVNode("text", { class: "detail" }, "司机编号：67409881")
+                  vue.createElementVNode(
+                    "text",
+                    { class: "detail" },
+                    "司机编号：" + vue.toDisplayString(userInfo.value.number),
+                    1
+                    /* TEXT */
+                  )
                 ]),
                 vue.createElementVNode("view", { class: "phone" }, [
-                  vue.createElementVNode("text", { class: "detail" }, "手机号：177 9998 8765")
+                  vue.createElementVNode(
+                    "text",
+                    { class: "detail" },
+                    "手机号：" + vue.toDisplayString(userInfo.value.phone),
+                    1
+                    /* TEXT */
+                  )
                 ])
-              ])
+              ])) : vue.createCommentVNode("v-if", true)
             ]),
             vue.createElementVNode("view", { class: "monthQuest" }, [
               vue.createElementVNode("view", { class: "title" }, " - 本月任务 - "),
-              vue.createElementVNode("view", { class: "questList" }, [
+              MonthTask.value ? (vue.openBlock(), vue.createElementBlock("view", {
+                key: 0,
+                class: "questList"
+              }, [
                 vue.createElementVNode("view", { class: "questItem" }, [
-                  vue.createElementVNode("text", { class: "number" }, " 18 "),
+                  vue.createElementVNode(
+                    "text",
+                    { class: "number" },
+                    vue.toDisplayString(MonthTask.value.taskAmounts),
+                    1
+                    /* TEXT */
+                  ),
                   vue.createElementVNode("view", { class: "amount" }, " 任务总量 ")
                 ]),
                 vue.createElementVNode("view", { class: "questItem" }, [
-                  vue.createElementVNode("text", { class: "number" }, " 16 "),
+                  vue.createElementVNode(
+                    "text",
+                    { class: "number" },
+                    vue.toDisplayString(MonthTask.value.completedAmounts),
+                    1
+                    /* TEXT */
+                  ),
                   vue.createElementVNode("view", { class: "amount" }, " 完成任务量 ")
                 ]),
                 vue.createElementVNode("view", { class: "questItem" }, [
-                  vue.createElementVNode("text", { class: "number" }, " 3987 "),
+                  vue.createElementVNode(
+                    "text",
+                    { class: "number" },
+                    vue.toDisplayString(MonthTask.value.transportMileage),
+                    1
+                    /* TEXT */
+                  ),
                   vue.createElementVNode("view", { class: "amount" }, " 运输里程(km) ")
                 ])
-              ])
+              ])) : vue.createCommentVNode("v-if", true)
             ]),
             vue.createElementVNode("view", { class: "cellBox" }, [
-              (vue.openBlock(), vue.createElementBlock(
-                vue.Fragment,
-                null,
-                vue.renderList(3, (item) => {
-                  return vue.createVNode(MyCell, { key: item });
-                }),
-                64
-                /* STABLE_FRAGMENT */
-              ))
+              vue.createVNode(MyCell, {
+                title: "车辆信息",
+                to: "/subpck_user/task/index"
+              }),
+              vue.createVNode(MyCell, {
+                title: "任务数据",
+                to: "/subpck_user/tuck/index"
+              }),
+              vue.createVNode(MyCell, {
+                title: "系统设置",
+                to: "/subpck_user/settings/index"
+              })
             ])
           ])
         ]);
       };
     }
   });
-  const PagesMyIndex = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/my/index.vue"]]);
-  const _sfc_main$2 = {
+  const PagesMyIndex = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/my/index.vue"]]);
+  const _sfc_main$f = {
+    name: "UniBadge",
+    emits: ["click"],
+    props: {
+      type: {
+        type: String,
+        default: "error"
+      },
+      inverted: {
+        type: Boolean,
+        default: false
+      },
+      isDot: {
+        type: Boolean,
+        default: false
+      },
+      maxNum: {
+        type: Number,
+        default: 99
+      },
+      absolute: {
+        type: String,
+        default: ""
+      },
+      offset: {
+        type: Array,
+        default() {
+          return [0, 0];
+        }
+      },
+      text: {
+        type: [String, Number],
+        default: ""
+      },
+      size: {
+        type: String,
+        default: "small"
+      },
+      customStyle: {
+        type: Object,
+        default() {
+          return {};
+        }
+      }
+    },
+    data() {
+      return {};
+    },
+    computed: {
+      width() {
+        return String(this.text).length * 8 + 12;
+      },
+      classNames() {
+        const {
+          inverted,
+          type,
+          size,
+          absolute
+        } = this;
+        return [
+          inverted ? "uni-badge--" + type + "-inverted" : "",
+          "uni-badge--" + type,
+          "uni-badge--" + size,
+          absolute ? "uni-badge--absolute" : ""
+        ].join(" ");
+      },
+      positionStyle() {
+        if (!this.absolute)
+          return {};
+        let w = this.width / 2, h = 10;
+        if (this.isDot) {
+          w = 5;
+          h = 5;
+        }
+        const x = `${-w + this.offset[0]}px`;
+        const y = `${-h + this.offset[1]}px`;
+        const whiteList = {
+          rightTop: {
+            right: x,
+            top: y
+          },
+          rightBottom: {
+            right: x,
+            bottom: y
+          },
+          leftBottom: {
+            left: x,
+            bottom: y
+          },
+          leftTop: {
+            left: x,
+            top: y
+          }
+        };
+        const match = whiteList[this.absolute];
+        return match ? match : whiteList["rightTop"];
+      },
+      dotStyle() {
+        if (!this.isDot)
+          return {};
+        return {
+          width: "10px",
+          minWidth: "0",
+          height: "10px",
+          padding: "0",
+          borderRadius: "10px"
+        };
+      },
+      displayValue() {
+        const {
+          isDot,
+          text,
+          maxNum
+        } = this;
+        return isDot ? "" : Number(text) > maxNum ? `${maxNum}+` : text;
+      }
+    },
+    methods: {
+      onClick() {
+        this.$emit("click");
+      }
+    }
+  };
+  function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "uni-badge--x" }, [
+      vue.renderSlot(_ctx.$slots, "default", {}, void 0, true),
+      $props.text ? (vue.openBlock(), vue.createElementBlock(
+        "text",
+        {
+          key: 0,
+          class: vue.normalizeClass([$options.classNames, "uni-badge"]),
+          style: vue.normalizeStyle([$options.positionStyle, $props.customStyle, $options.dotStyle]),
+          onClick: _cache[0] || (_cache[0] = ($event) => $options.onClick())
+        },
+        vue.toDisplayString($options.displayValue),
+        7
+        /* TEXT, CLASS, STYLE */
+      )) : vue.createCommentVNode("v-if", true)
+    ]);
+  }
+  const __easycom_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["render", _sfc_render$6], ["__scopeId", "data-v-c97cb896"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-badge/components/uni-badge/uni-badge.vue"]]);
+  const _sfc_main$e = {
+    name: "UniListItem",
+    emits: ["click", "switchChange"],
+    props: {
+      direction: {
+        type: String,
+        default: "row"
+      },
+      title: {
+        type: String,
+        default: ""
+      },
+      note: {
+        type: String,
+        default: ""
+      },
+      ellipsis: {
+        type: [Number, String],
+        default: 0
+      },
+      disabled: {
+        type: [Boolean, String],
+        default: false
+      },
+      clickable: {
+        type: Boolean,
+        default: false
+      },
+      showArrow: {
+        type: [Boolean, String],
+        default: false
+      },
+      link: {
+        type: [Boolean, String],
+        default: false
+      },
+      to: {
+        type: String,
+        default: ""
+      },
+      showBadge: {
+        type: [Boolean, String],
+        default: false
+      },
+      showSwitch: {
+        type: [Boolean, String],
+        default: false
+      },
+      switchChecked: {
+        type: [Boolean, String],
+        default: false
+      },
+      badgeText: {
+        type: String,
+        default: ""
+      },
+      badgeType: {
+        type: String,
+        default: "success"
+      },
+      badgeStyle: {
+        type: Object,
+        default() {
+          return {};
+        }
+      },
+      rightText: {
+        type: String,
+        default: ""
+      },
+      thumb: {
+        type: String,
+        default: ""
+      },
+      thumbSize: {
+        type: String,
+        default: "base"
+      },
+      showExtraIcon: {
+        type: [Boolean, String],
+        default: false
+      },
+      extraIcon: {
+        type: Object,
+        default() {
+          return {
+            type: "",
+            color: "#000000",
+            size: 20,
+            customPrefix: ""
+          };
+        }
+      },
+      border: {
+        type: Boolean,
+        default: true
+      },
+      customStyle: {
+        type: Object,
+        default() {
+          return {
+            padding: "",
+            backgroundColor: "#FFFFFF"
+          };
+        }
+      },
+      keepScrollPosition: {
+        type: Boolean,
+        default: false
+      }
+    },
+    watch: {
+      "customStyle.padding": {
+        handler(padding) {
+          if (typeof padding == "number") {
+            padding += "";
+          }
+          let paddingArr = padding.split(" ");
+          if (paddingArr.length === 1) {
+            const allPadding = paddingArr[0];
+            this.padding = {
+              "top": allPadding,
+              "right": allPadding,
+              "bottom": allPadding,
+              "left": allPadding
+            };
+          } else if (paddingArr.length === 2) {
+            const [verticalPadding, horizontalPadding] = paddingArr;
+            this.padding = {
+              "top": verticalPadding,
+              "right": horizontalPadding,
+              "bottom": verticalPadding,
+              "left": horizontalPadding
+            };
+          } else if (paddingArr.length === 4) {
+            const [topPadding, rightPadding, bottomPadding, leftPadding] = paddingArr;
+            this.padding = {
+              "top": topPadding,
+              "right": rightPadding,
+              "bottom": bottomPadding,
+              "left": leftPadding
+            };
+          }
+        },
+        immediate: true
+      }
+    },
+    // inject: ['list'],
+    data() {
+      return {
+        isFirstChild: false,
+        padding: {
+          top: "",
+          right: "",
+          bottom: "",
+          left: ""
+        }
+      };
+    },
+    mounted() {
+      this.list = this.getForm();
+      if (this.list) {
+        if (!this.list.firstChildAppend) {
+          this.list.firstChildAppend = true;
+          this.isFirstChild = true;
+        }
+      }
+    },
+    methods: {
+      /**
+       * 获取父元素实例
+       */
+      getForm(name = "uniList") {
+        let parent = this.$parent;
+        let parentName = parent.$options.name;
+        while (parentName !== name) {
+          parent = parent.$parent;
+          if (!parent)
+            return false;
+          parentName = parent.$options.name;
+        }
+        return parent;
+      },
+      onClick() {
+        if (this.to !== "") {
+          this.openPage();
+          return;
+        }
+        if (this.clickable || this.link) {
+          this.$emit("click", {
+            data: {}
+          });
+        }
+      },
+      onSwitchChange(e) {
+        this.$emit("switchChange", e.detail);
+      },
+      openPage() {
+        if (["navigateTo", "redirectTo", "reLaunch", "switchTab"].indexOf(this.link) !== -1) {
+          this.pageApi(this.link);
+        } else {
+          this.pageApi("navigateTo");
+        }
+      },
+      pageApi(api) {
+        let callback = {
+          url: this.to,
+          success: (res) => {
+            this.$emit("click", {
+              data: res
+            });
+          },
+          fail: (err) => {
+            this.$emit("click", {
+              data: err
+            });
+          }
+        };
+        switch (api) {
+          case "navigateTo":
+            uni.navigateTo(callback);
+            break;
+          case "redirectTo":
+            uni.redirectTo(callback);
+            break;
+          case "reLaunch":
+            uni.reLaunch(callback);
+            break;
+          case "switchTab":
+            uni.switchTab(callback);
+            break;
+          default:
+            uni.navigateTo(callback);
+        }
+      }
+    }
+  };
+  function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_uni_icons = resolveEasycom(vue.resolveDynamicComponent("uni-icons"), __easycom_0$2);
+    const _component_uni_badge = resolveEasycom(vue.resolveDynamicComponent("uni-badge"), __easycom_1$1);
+    return vue.openBlock(), vue.createElementBlock("view", {
+      class: vue.normalizeClass([{ "uni-list-item--disabled": $props.disabled }, "uni-list-item"]),
+      style: vue.normalizeStyle({ "background-color": $props.customStyle.backgroundColor }),
+      "hover-class": !$props.clickable && !$props.link || $props.disabled || $props.showSwitch ? "" : "uni-list-item--hover",
+      onClick: _cache[1] || (_cache[1] = (...args) => $options.onClick && $options.onClick(...args))
+    }, [
+      !$data.isFirstChild ? (vue.openBlock(), vue.createElementBlock(
+        "view",
+        {
+          key: 0,
+          class: vue.normalizeClass(["border--left", { "uni-list--border": $props.border }])
+        },
+        null,
+        2
+        /* CLASS */
+      )) : vue.createCommentVNode("v-if", true),
+      vue.createElementVNode(
+        "view",
+        {
+          class: vue.normalizeClass(["uni-list-item__container", { "container--right": $props.showArrow || $props.link, "flex--direction": $props.direction === "column" }]),
+          style: vue.normalizeStyle({ paddingTop: $data.padding.top, paddingLeft: $data.padding.left, paddingRight: $data.padding.right, paddingBottom: $data.padding.bottom })
+        },
+        [
+          vue.renderSlot(_ctx.$slots, "header", {}, () => [
+            vue.createElementVNode("view", { class: "uni-list-item__header" }, [
+              $props.thumb ? (vue.openBlock(), vue.createElementBlock("view", {
+                key: 0,
+                class: "uni-list-item__icon"
+              }, [
+                vue.createElementVNode("image", {
+                  src: $props.thumb,
+                  class: vue.normalizeClass(["uni-list-item__icon-img", ["uni-list--" + $props.thumbSize]])
+                }, null, 10, ["src"])
+              ])) : $props.showExtraIcon ? (vue.openBlock(), vue.createElementBlock("view", {
+                key: 1,
+                class: "uni-list-item__icon"
+              }, [
+                vue.createVNode(_component_uni_icons, {
+                  customPrefix: $props.extraIcon.customPrefix,
+                  color: $props.extraIcon.color,
+                  size: $props.extraIcon.size,
+                  type: $props.extraIcon.type
+                }, null, 8, ["customPrefix", "color", "size", "type"])
+              ])) : vue.createCommentVNode("v-if", true)
+            ])
+          ], true),
+          vue.renderSlot(_ctx.$slots, "body", {}, () => [
+            vue.createElementVNode(
+              "view",
+              {
+                class: vue.normalizeClass(["uni-list-item__content", { "uni-list-item__content--center": $props.thumb || $props.showExtraIcon || $props.showBadge || $props.showSwitch }])
+              },
+              [
+                $props.title ? (vue.openBlock(), vue.createElementBlock(
+                  "text",
+                  {
+                    key: 0,
+                    class: vue.normalizeClass(["uni-list-item__content-title", [$props.ellipsis !== 0 && $props.ellipsis <= 2 ? "uni-ellipsis-" + $props.ellipsis : ""]])
+                  },
+                  vue.toDisplayString($props.title),
+                  3
+                  /* TEXT, CLASS */
+                )) : vue.createCommentVNode("v-if", true),
+                $props.note ? (vue.openBlock(), vue.createElementBlock(
+                  "text",
+                  {
+                    key: 1,
+                    class: "uni-list-item__content-note"
+                  },
+                  vue.toDisplayString($props.note),
+                  1
+                  /* TEXT */
+                )) : vue.createCommentVNode("v-if", true)
+              ],
+              2
+              /* CLASS */
+            )
+          ], true),
+          vue.renderSlot(_ctx.$slots, "footer", {}, () => [
+            $props.rightText || $props.showBadge || $props.showSwitch ? (vue.openBlock(), vue.createElementBlock(
+              "view",
+              {
+                key: 0,
+                class: vue.normalizeClass(["uni-list-item__extra", { "flex--justify": $props.direction === "column" }])
+              },
+              [
+                $props.rightText ? (vue.openBlock(), vue.createElementBlock(
+                  "text",
+                  {
+                    key: 0,
+                    class: "uni-list-item__extra-text"
+                  },
+                  vue.toDisplayString($props.rightText),
+                  1
+                  /* TEXT */
+                )) : vue.createCommentVNode("v-if", true),
+                $props.showBadge ? (vue.openBlock(), vue.createBlock(_component_uni_badge, {
+                  key: 1,
+                  type: $props.badgeType,
+                  text: $props.badgeText,
+                  "custom-style": $props.badgeStyle
+                }, null, 8, ["type", "text", "custom-style"])) : vue.createCommentVNode("v-if", true),
+                $props.showSwitch ? (vue.openBlock(), vue.createElementBlock("switch", {
+                  key: 2,
+                  disabled: $props.disabled,
+                  checked: $props.switchChecked,
+                  onChange: _cache[0] || (_cache[0] = (...args) => $options.onSwitchChange && $options.onSwitchChange(...args))
+                }, null, 40, ["disabled", "checked"])) : vue.createCommentVNode("v-if", true)
+              ],
+              2
+              /* CLASS */
+            )) : vue.createCommentVNode("v-if", true)
+          ], true)
+        ],
+        6
+        /* CLASS, STYLE */
+      ),
+      $props.showArrow || $props.link ? (vue.openBlock(), vue.createBlock(_component_uni_icons, {
+        key: 1,
+        size: 16,
+        class: "uni-icon-wrapper",
+        color: "#bbb",
+        type: "arrowright"
+      })) : vue.createCommentVNode("v-if", true)
+    ], 14, ["hover-class"]);
+  }
+  const __easycom_0 = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$5], ["__scopeId", "data-v-c7524739"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-list/components/uni-list-item/uni-list-item.vue"]]);
+  const _sfc_main$d = {
+    name: "uniList",
+    "mp-weixin": {
+      options: {
+        multipleSlots: false
+      }
+    },
+    props: {
+      stackFromEnd: {
+        type: Boolean,
+        default: false
+      },
+      enableBackToTop: {
+        type: [Boolean, String],
+        default: false
+      },
+      scrollY: {
+        type: [Boolean, String],
+        default: false
+      },
+      border: {
+        type: Boolean,
+        default: true
+      },
+      renderReverse: {
+        type: Boolean,
+        default: false
+      }
+    },
+    // provide() {
+    // 	return {
+    // 		list: this
+    // 	};
+    // },
+    created() {
+      this.firstChildAppend = false;
+    },
+    methods: {
+      loadMore(e) {
+        this.$emit("scrolltolower");
+      },
+      scroll(e) {
+        this.$emit("scroll", e);
+      }
+    }
+  };
+  function _sfc_render$4(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", { class: "uni-list uni-border-top-bottom" }, [
+      $props.border ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 0,
+        class: "uni-list--border-top"
+      })) : vue.createCommentVNode("v-if", true),
+      vue.renderSlot(_ctx.$slots, "default", {}, void 0, true),
+      $props.border ? (vue.openBlock(), vue.createElementBlock("view", {
+        key: 1,
+        class: "uni-list--border-bottom"
+      })) : vue.createCommentVNode("v-if", true)
+    ]);
+  }
+  const __easycom_1 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["render", _sfc_render$4], ["__scopeId", "data-v-c2f1266a"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/uni_modules/uni-list/components/uni-list/uni-list.vue"]]);
+  const getMessageListApi = (data) => {
+    return uniFetch({
+      url: `/driver/messages/page?contentType=${data.contentType}&page=${data.page}&pageSize=${data.pageSize}`,
+      method: "GET"
+    });
+  };
+  const getMessageAllReadApi = (contentType) => {
+    return uniFetch({
+      url: `/driver/messages/readAll/${contentType}`,
+      method: "PUT"
+    });
+  };
+  const getMessageMarkReadApi = (id) => {
+    return uniFetch({
+      url: `/driver/messages/${id}`,
+      method: "PUT"
+    });
+  };
+  const _sfc_main$c = /* @__PURE__ */ vue.defineComponent({
+    __name: "notification",
+    setup(__props) {
+      const MessageListData = vue.ref({
+        contentType: "201",
+        page: 1,
+        pageSize: 5
+      });
+      const MessageList = vue.ref([]);
+      const getMessageList = async () => {
+        try {
+          const res = await getMessageListApi(MessageListData.value);
+          MessageList.value = [
+            ...MessageList.value,
+            ...res.data.data.items || []
+          ];
+          refresher.value = false;
+          if (MessageList.value.length >= res.data.data.counts) {
+            isscrolltolower.value = true;
+            text.value = "暂无更多数据";
+          } else {
+            MessageListData.value.page++;
+          }
+          istext.value = false;
+        } catch (e) {
+          formatAppLog("log", "at pages/message/component/notification.vue:98", e);
+        }
+      };
+      onLoad(() => {
+        getMessageList();
+      });
+      const isscrolltolower = vue.ref(false);
+      const text = vue.ref("加载数据中...");
+      const istext = vue.ref(false);
+      const scrolltolower = () => {
+        istext.value = true;
+        if (isscrolltolower.value)
+          return;
+        getMessageList();
+      };
+      const refresher = vue.ref(true);
+      const refresherrefresh = () => {
+        MessageList.value = [];
+        MessageListData.value.page = 1;
+        refresher.value = true;
+        getMessageList();
+      };
+      const allRead = async () => {
+        await getMessageAllReadApi("201");
+      };
+      const goDetail = (id) => {
+        uni.navigateTo({
+          url: `/subpck_task/detail/index?id=${id}&type=${"201"}`
+        });
+      };
+      return (_ctx, _cache) => {
+        const _component_uni_list_item = resolveEasycom(vue.resolveDynamicComponent("uni-list-item"), __easycom_0);
+        const _component_uni_list = resolveEasycom(vue.resolveDynamicComponent("uni-list"), __easycom_1);
+        return vue.openBlock(), vue.createElementBlock("scroll-view", {
+          "refresher-enabled": true,
+          class: "scroll-view",
+          "refresher-background": "#f4f4f4",
+          "scroll-y": "true",
+          onScrolltolower: scrolltolower,
+          onRefresherrefresh: refresherrefresh,
+          "refresher-triggered": refresher.value
+        }, [
+          MessageList.value.length > 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+            key: 0,
+            class: "notification"
+          }, [
+            vue.createElementVNode("view", { class: "Allread" }, [
+              vue.createElementVNode("text", { class: "iconfont icon-clear" }),
+              vue.createElementVNode("text", { onClick: allRead }, "全部已读")
+            ]),
+            vue.createElementVNode("view", { class: "notificationList" }, [
+              (vue.openBlock(true), vue.createElementBlock(
+                vue.Fragment,
+                null,
+                vue.renderList(MessageList.value, (item) => {
+                  return vue.openBlock(), vue.createBlock(
+                    _component_uni_list,
+                    {
+                      key: item.id
+                    },
+                    {
+                      default: vue.withCtx(() => [
+                        vue.createVNode(
+                          _component_uni_list_item,
+                          {
+                            class: "header",
+                            ellipsis: 1
+                          },
+                          {
+                            body: vue.withCtx(() => [
+                              vue.createElementVNode("view", { class: "slot-box" }, [
+                                vue.createElementVNode(
+                                  "text",
+                                  { class: "slot-text" },
+                                  vue.toDisplayString(item.title),
+                                  1
+                                  /* TEXT */
+                                )
+                              ])
+                            ]),
+                            header: vue.withCtx(() => [
+                              item.isRead === 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+                                key: 0,
+                                class: "lod"
+                              })) : vue.createCommentVNode("v-if", true)
+                            ]),
+                            _: 2
+                            /* DYNAMIC */
+                          },
+                          1024
+                          /* DYNAMIC_SLOTS */
+                        ),
+                        vue.createVNode(_component_uni_list_item, {
+                          border: false,
+                          title: item.content.split("\n")[0],
+                          rightText: item.content.split("\n")[1],
+                          ellipsis: 1
+                        }, null, 8, ["title", "rightText"]),
+                        vue.createVNode(_component_uni_list_item, {
+                          border: false,
+                          title: item.created,
+                          rightText: "",
+                          ellipsis: 1
+                        }, {
+                          footer: vue.withCtx(() => [
+                            vue.createElementVNode("button", {
+                              plain: "",
+                              class: "btnDetail",
+                              onClick: ($event) => goDetail(item.relevantId)
+                            }, " 查看详情 ", 8, ["onClick"])
+                          ]),
+                          _: 2
+                          /* DYNAMIC */
+                        }, 1032, ["title"])
+                      ]),
+                      _: 2
+                      /* DYNAMIC */
+                    },
+                    1024
+                    /* DYNAMIC_SLOTS */
+                  );
+                }),
+                128
+                /* KEYED_FRAGMENT */
+              ))
+            ]),
+            istext.value ? (vue.openBlock(), vue.createElementBlock(
+              "view",
+              {
+                key: 0,
+                class: "toops"
+              },
+              vue.toDisplayString(text.value),
+              1
+              /* TEXT */
+            )) : vue.createCommentVNode("v-if", true)
+          ])) : (vue.openBlock(), vue.createElementBlock("view", {
+            key: 1,
+            class: "footer"
+          }, [
+            vue.createElementVNode("image", {
+              src: "/static/images/kong.png",
+              mode: ""
+            }),
+            vue.createElementVNode("text", null, "暂无数据")
+          ]))
+        ], 40, ["refresher-triggered"]);
+      };
+    }
+  });
+  const notification = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-08df5b60"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/message/component/notification.vue"]]);
+  const _sfc_main$b = /* @__PURE__ */ vue.defineComponent({
+    __name: "announcement",
+    setup(__props) {
+      const MessageListData = vue.ref({
+        contentType: "200",
+        page: 1,
+        pageSize: 5
+      });
+      const MessageList = vue.ref([]);
+      const getMessageList = async () => {
+        try {
+          const res = await getMessageListApi(MessageListData.value);
+          MessageList.value = [
+            ...MessageList.value,
+            ...res.data.data.items || []
+          ];
+          refresher.value = false;
+          if (MessageList.value.length >= res.data.data.counts) {
+            isscrolltolower.value = true;
+            text.value = "暂无更多数据";
+          } else {
+            MessageListData.value.page++;
+          }
+          istext.value = false;
+        } catch (e) {
+          formatAppLog("log", "at pages/message/component/announcement.vue:77", e);
+        }
+      };
+      onLoad(() => {
+        getMessageList();
+      });
+      const isscrolltolower = vue.ref(false);
+      const text = vue.ref("加载数据中...");
+      const istext = vue.ref(false);
+      const scrolltolower = () => {
+        istext.value = true;
+        if (isscrolltolower.value)
+          return;
+        getMessageList();
+      };
+      const refresher = vue.ref(true);
+      const refresherrefresh = () => {
+        MessageList.value = [];
+        MessageListData.value.page = 1;
+        refresher.value = true;
+        getMessageList();
+      };
+      const allRead = async () => {
+        await getMessageAllReadApi("200");
+      };
+      return (_ctx, _cache) => {
+        const _component_uni_list_item = resolveEasycom(vue.resolveDynamicComponent("uni-list-item"), __easycom_0);
+        const _component_uni_list = resolveEasycom(vue.resolveDynamicComponent("uni-list"), __easycom_1);
+        return vue.openBlock(), vue.createElementBlock("scroll-view", {
+          "refresher-enabled": true,
+          class: "scroll-view",
+          "refresher-background": "#f4f4f4",
+          "scroll-y": "true",
+          onScrolltolower: scrolltolower,
+          onRefresherrefresh: refresherrefresh,
+          "refresher-triggered": refresher.value
+        }, [
+          MessageList.value.length > 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+            key: 0,
+            class: "announcement"
+          }, [
+            vue.createElementVNode("view", { class: "Allread" }, [
+              vue.createElementVNode("text", { class: "iconfont icon-clear" }),
+              vue.createElementVNode("text", { onClick: allRead }, "全部已读")
+            ]),
+            vue.createVNode(_component_uni_list, null, {
+              default: vue.withCtx(() => [
+                (vue.openBlock(true), vue.createElementBlock(
+                  vue.Fragment,
+                  null,
+                  vue.renderList(MessageList.value, (item) => {
+                    return vue.openBlock(), vue.createBlock(_component_uni_list_item, {
+                      title: item.content,
+                      rightText: item.created,
+                      ellipsis: 1,
+                      key: item.id,
+                      to: `/subpck_message/detail/index?id=${item.id}&type=${"200"}`
+                    }, {
+                      header: vue.withCtx(() => [
+                        item.isRead === 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+                          key: 0,
+                          class: "lod"
+                        })) : vue.createCommentVNode("v-if", true)
+                      ]),
+                      _: 2
+                      /* DYNAMIC */
+                    }, 1032, ["title", "rightText", "to"]);
+                  }),
+                  128
+                  /* KEYED_FRAGMENT */
+                ))
+              ]),
+              _: 1
+              /* STABLE */
+            }),
+            istext.value ? (vue.openBlock(), vue.createElementBlock(
+              "view",
+              {
+                key: 0,
+                class: "toops"
+              },
+              vue.toDisplayString(text.value),
+              1
+              /* TEXT */
+            )) : vue.createCommentVNode("v-if", true)
+          ])) : (vue.openBlock(), vue.createElementBlock("view", {
+            key: 1,
+            class: "footer"
+          }, [
+            vue.createElementVNode("image", {
+              src: "/static/images/kong.png",
+              mode: ""
+            }),
+            vue.createElementVNode("text", null, "暂无数据")
+          ]))
+        ], 40, ["refresher-triggered"]);
+      };
+    }
+  });
+  const announcement = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["__scopeId", "data-v-2b1adb34"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/message/component/announcement.vue"]]);
+  const _sfc_main$a = /* @__PURE__ */ vue.defineComponent({
+    __name: "index",
+    setup(__props) {
+      const active = vue.ref(0);
+      const typeList = vue.ref([
+        {
+          name: "公告",
+          direct: true
+        },
+        {
+          name: "任务通知",
+          direct: false
+        }
+      ]);
+      const selectActive = (index) => {
+        active.value = index;
+        typeList.value[index].direct = true;
+      };
+      return (_ctx, _cache) => {
+        return vue.openBlock(), vue.createElementBlock("view", { class: "app-main" }, [
+          vue.createElementVNode("view", { class: "tab" }, [
+            (vue.openBlock(true), vue.createElementBlock(
+              vue.Fragment,
+              null,
+              vue.renderList(typeList.value, (item, index) => {
+                return vue.openBlock(), vue.createElementBlock("view", {
+                  class: vue.normalizeClass(["tab-item", { active: active.value === index }]),
+                  key: index,
+                  onClick: ($event) => selectActive(index)
+                }, [
+                  vue.createElementVNode(
+                    "text",
+                    null,
+                    vue.toDisplayString(item.name),
+                    1
+                    /* TEXT */
+                  )
+                ], 10, ["onClick"]);
+              }),
+              128
+              /* KEYED_FRAGMENT */
+            ))
+          ]),
+          typeList.value[0].direct ? vue.withDirectives((vue.openBlock(), vue.createElementBlock(
+            "view",
+            {
+              key: 0,
+              class: "list"
+            },
+            [
+              vue.createVNode(announcement)
+            ],
+            512
+            /* NEED_PATCH */
+          )), [
+            [vue.vShow, active.value == 0]
+          ]) : vue.createCommentVNode("v-if", true),
+          typeList.value[1].direct ? vue.withDirectives((vue.openBlock(), vue.createElementBlock(
+            "view",
+            {
+              key: 1,
+              class: "list"
+            },
+            [
+              vue.createVNode(notification)
+            ],
+            512
+            /* NEED_PATCH */
+          )), [
+            [vue.vShow, active.value == 1]
+          ]) : vue.createCommentVNode("v-if", true)
+        ]);
+      };
+    }
+  });
+  const PagesMessageIndex = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/message/index.vue"]]);
+  const _sfc_main$9 = {};
+  function _sfc_render$3(_ctx, _cache) {
+    return null;
+  }
+  const complete = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$3], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/task/component/complete.vue"]]);
+  const _sfc_main$8 = {};
+  function _sfc_render$2(_ctx, _cache) {
+    return null;
+  }
+  const Enroute = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["render", _sfc_render$2], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/task/component/Enroute.vue"]]);
+  const getTaskDetailApi = (id) => {
+    return uniFetch({
+      url: `/driver/tasks/details/${id}`,
+      method: "GET"
+    });
+  };
+  const getTaskListApi = (data) => {
+    return uniFetch({
+      url: `/driver/tasks/list?page=${data.page}&pageSize=${data.pageSize}&status=${data.status}`,
+      method: "GET"
+    });
+  };
+  const _sfc_main$7 = /* @__PURE__ */ vue.defineComponent({
+    __name: "delivery",
+    setup(__props) {
+      const taskParams = vue.ref({
+        page: 1,
+        pageSize: 5,
+        status: "1"
+      });
+      const taskList = vue.ref([]);
+      const getTaskList = async () => {
+        try {
+          const result = await getTaskListApi(taskParams.value);
+          taskList.value = [
+            ...taskList.value,
+            ...result.data.data.items || []
+          ];
+          refresher.value = false;
+          if (taskList.value.length >= result.data.data.counts) {
+            isscrolltolower.value = true;
+            text.value = "暂无更多数据";
+          } else {
+            taskParams.value.page++;
+          }
+          istext.value = false;
+        } catch (e) {
+          formatAppLog("log", "at pages/task/component/delivery.vue:81", e);
+        }
+      };
+      onLoad(() => {
+        getTaskList();
+      });
+      const isscrolltolower = vue.ref(false);
+      const text = vue.ref("加载数据中...");
+      const istext = vue.ref(false);
+      const scrolltolower = () => {
+        istext.value = true;
+        if (isscrolltolower.value)
+          return;
+        getTaskList();
+      };
+      const refresher = vue.ref(true);
+      const refresherrefresh = () => {
+        taskList.value = [];
+        taskParams.value.page = 1;
+        refresher.value = true;
+        getTaskList();
+      };
+      return (_ctx, _cache) => {
+        return vue.openBlock(), vue.createElementBlock("scroll-view", {
+          "refresher-enabled": true,
+          class: "scroll-view",
+          "refresher-background": "#f4f4f4",
+          "scroll-y": "true",
+          onScrolltolower: scrolltolower,
+          onRefresherrefresh: refresherrefresh,
+          "refresher-triggered": refresher.value
+        }, [
+          taskList.value.length > 0 ? (vue.openBlock(), vue.createElementBlock("view", {
+            key: 0,
+            class: "Delivery"
+          }, [
+            (vue.openBlock(true), vue.createElementBlock(
+              vue.Fragment,
+              null,
+              vue.renderList(taskList.value, (item) => {
+                return vue.openBlock(), vue.createElementBlock("view", {
+                  class: "itemCart",
+                  key: item.id
+                }, [
+                  vue.createElementVNode("view", { class: "Taskid" }, [
+                    vue.createElementVNode("view", { class: "task" }, [
+                      vue.createTextVNode(" 任务编号："),
+                      vue.createElementVNode(
+                        "text",
+                        { class: "id" },
+                        vue.toDisplayString(item.id),
+                        1
+                        /* TEXT */
+                      )
+                    ]),
+                    vue.createElementVNode("text", { class: "Putoff" }, "以延迟")
+                  ]),
+                  vue.createElementVNode("view", { class: "address" }, [
+                    vue.createElementVNode(
+                      "view",
+                      { class: "start line" },
+                      vue.toDisplayString(item.startAddress),
+                      1
+                      /* TEXT */
+                    ),
+                    vue.createElementVNode(
+                      "view",
+                      { class: "end line" },
+                      vue.toDisplayString(item.endAddress),
+                      1
+                      /* TEXT */
+                    )
+                  ]),
+                  vue.createElementVNode("view", { class: "footer" }, [
+                    vue.createElementVNode("view", { class: "time" }, [
+                      vue.createElementVNode("text", { class: "timer" }, "提货时间"),
+                      vue.createElementVNode("view", { class: "date" }, "2022.05.04 13:00 ")
+                    ]),
+                    item.enablePickUp ? (vue.openBlock(), vue.createElementBlock("navigator", {
+                      key: 0,
+                      class: "btnadd",
+                      url: ""
+                    }, [
+                      vue.createElementVNode("text", null, "提交")
+                    ])) : (vue.openBlock(), vue.createElementBlock("text", {
+                      key: 1,
+                      class: "disabled"
+                    }, [
+                      vue.createElementVNode("text", null, "提交")
+                    ]))
+                  ])
+                ]);
+              }),
+              128
+              /* KEYED_FRAGMENT */
+            )),
+            istext.value ? (vue.openBlock(), vue.createElementBlock(
+              "view",
+              {
+                key: 0,
+                class: "toops"
+              },
+              vue.toDisplayString(text.value),
+              1
+              /* TEXT */
+            )) : vue.createCommentVNode("v-if", true)
+          ])) : (vue.openBlock(), vue.createElementBlock("view", {
+            key: 1,
+            class: "footertip"
+          }, [
+            vue.createElementVNode("image", {
+              src: "/static/images/kong.png",
+              mode: ""
+            }),
+            vue.createElementVNode("text", null, "暂无数据")
+          ]))
+        ], 40, ["refresher-triggered"]);
+      };
+    }
+  });
+  const delivery = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["__scopeId", "data-v-6d4a358a"], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/task/component/delivery.vue"]]);
+  const _sfc_main$6 = /* @__PURE__ */ vue.defineComponent({
+    __name: "index",
+    setup(__props) {
+      const active = vue.ref(0);
+      const typeList = vue.ref([
+        {
+          name: "待提货",
+          direct: true
+        },
+        {
+          name: "在途",
+          direct: false
+        },
+        {
+          name: "已完成",
+          direct: false
+        }
+      ]);
+      const selectActive = (index) => {
+        active.value = index;
+        typeList.value[index].direct = true;
+      };
+      return (_ctx, _cache) => {
+        return vue.openBlock(), vue.createElementBlock("view", { class: "app-mains" }, [
+          vue.createElementVNode("view", { class: "tab" }, [
+            (vue.openBlock(true), vue.createElementBlock(
+              vue.Fragment,
+              null,
+              vue.renderList(typeList.value, (item, index) => {
+                return vue.openBlock(), vue.createElementBlock("view", {
+                  class: vue.normalizeClass(["tab-item", { active: active.value === index }]),
+                  key: index,
+                  onClick: ($event) => selectActive(index)
+                }, [
+                  vue.createElementVNode(
+                    "text",
+                    null,
+                    vue.toDisplayString(item.name),
+                    1
+                    /* TEXT */
+                  )
+                ], 10, ["onClick"]);
+              }),
+              128
+              /* KEYED_FRAGMENT */
+            ))
+          ]),
+          typeList.value[0].direct ? vue.withDirectives((vue.openBlock(), vue.createElementBlock(
+            "view",
+            {
+              key: 0,
+              class: "list"
+            },
+            [
+              vue.createVNode(delivery)
+            ],
+            512
+            /* NEED_PATCH */
+          )), [
+            [vue.vShow, active.value == 0]
+          ]) : vue.createCommentVNode("v-if", true),
+          typeList.value[1].direct ? vue.withDirectives((vue.openBlock(), vue.createElementBlock(
+            "view",
+            {
+              key: 1,
+              class: "list"
+            },
+            [
+              vue.createVNode(Enroute)
+            ],
+            512
+            /* NEED_PATCH */
+          )), [
+            [vue.vShow, active.value == 1]
+          ]) : vue.createCommentVNode("v-if", true),
+          typeList.value[2].direct ? vue.withDirectives((vue.openBlock(), vue.createElementBlock(
+            "view",
+            {
+              key: 2,
+              class: "list"
+            },
+            [
+              vue.createVNode(complete)
+            ],
+            512
+            /* NEED_PATCH */
+          )), [
+            [vue.vShow, active.value == 2]
+          ]) : vue.createCommentVNode("v-if", true)
+        ]);
+      };
+    }
+  });
+  const PagesTaskIndex = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/task/index.vue"]]);
+  const _sfc_main$5 = {
     data() {
       return {};
     }
   };
   function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
-    return vue.openBlock(), vue.createElementBlock("view", null, " message ");
+    return vue.openBlock(), vue.createElementBlock("view", null, " 设置 ");
   }
-  const PagesMessageIndex = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["render", _sfc_render$1], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/message/index.vue"]]);
-  const _sfc_main$1 = {};
-  function _sfc_render(_ctx, _cache) {
-    return vue.openBlock(), vue.createElementBlock("view");
+  const Subpck_userSettingsIndex = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$1], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/subpck_user/settings/index.vue"]]);
+  const getTruckApi = () => {
+    return uniFetch({
+      url: "/driver/users/truck",
+      method: "GET"
+    });
+  };
+  const _sfc_main$4 = /* @__PURE__ */ vue.defineComponent({
+    __name: "index",
+    setup(__props) {
+      const truckInfo = vue.ref();
+      const getTruck = async () => {
+        const res = await getTruckApi();
+        formatAppLog("log", "at subpck_user/task/index.vue:63", res.data.code);
+        if (res.data.code == 200) {
+          truckInfo.value = res.data.data;
+        }
+      };
+      onLoad(() => {
+        getTruck();
+      });
+      return (_ctx, _cache) => {
+        const _component_uni_list_item = resolveEasycom(vue.resolveDynamicComponent("uni-list-item"), __easycom_0);
+        const _component_uni_list = resolveEasycom(vue.resolveDynamicComponent("uni-list"), __easycom_1);
+        return vue.openBlock(), vue.createElementBlock("view", { class: "app-main truck-main" }, [
+          vue.createElementVNode("view", { class: "swiper" }, [
+            truckInfo.value ? (vue.openBlock(), vue.createElementBlock("swiper", {
+              key: 0,
+              autoplay: true,
+              interval: 3e3,
+              duration: 1e3
+            }, [
+              (vue.openBlock(true), vue.createElementBlock(
+                vue.Fragment,
+                null,
+                vue.renderList(truckInfo.value.pictureList, (item, index) => {
+                  return vue.openBlock(), vue.createElementBlock("swiper-item", { key: index }, [
+                    vue.createElementVNode("image", {
+                      class: "truckImg",
+                      src: item.url,
+                      mode: "aspectFill"
+                    }, null, 8, ["src"])
+                  ]);
+                }),
+                128
+                /* KEYED_FRAGMENT */
+              ))
+            ])) : vue.createCommentVNode("v-if", true)
+          ]),
+          truckInfo.value ? (vue.openBlock(), vue.createElementBlock("view", {
+            key: 0,
+            class: "list"
+          }, [
+            vue.createVNode(_component_uni_list, null, {
+              default: vue.withCtx(() => [
+                vue.createVNode(_component_uni_list_item, {
+                  border: false,
+                  title: "车辆编号",
+                  rightText: truckInfo.value.id
+                }, null, 8, ["rightText"]),
+                vue.createVNode(_component_uni_list_item, {
+                  border: false,
+                  title: "车辆号牌",
+                  rightText: truckInfo.value.licensePlate
+                }, null, 8, ["rightText"]),
+                vue.createVNode(_component_uni_list_item, {
+                  border: false,
+                  title: "车型",
+                  rightText: truckInfo.value.truckType
+                }, null, 8, ["rightText"]),
+                vue.createVNode(_component_uni_list_item, {
+                  border: false,
+                  title: "所属机构",
+                  rightText: truckInfo.value.currentOrganName
+                }, null, 8, ["rightText"]),
+                vue.createVNode(_component_uni_list_item, {
+                  border: false,
+                  title: "载重",
+                  rightText: `${truckInfo.value.allowableLoad}吨`
+                }, null, 8, ["rightText"])
+              ]),
+              _: 1
+              /* STABLE */
+            })
+          ])) : vue.createCommentVNode("v-if", true)
+        ]);
+      };
+    }
+  });
+  const Subpck_userTaskIndex = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/subpck_user/task/index.vue"]]);
+  const _sfc_main$3 = {
+    data() {
+      return {};
+    }
+  };
+  function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, " 设置 ");
   }
-  const PagesTaskIndex = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/pages/task/index.vue"]]);
+  const Subpck_userTuckIndex = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render], ["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/subpck_user/tuck/index.vue"]]);
+  const _sfc_main$2 = /* @__PURE__ */ vue.defineComponent({
+    __name: "index",
+    setup(__props) {
+      const id = vue.ref("");
+      const getMessageMarkRead = async () => {
+        await getMessageMarkReadApi(id.value);
+      };
+      onLoad((e) => {
+        id.value = e.id;
+        getMessageMarkRead();
+      });
+      return (_ctx, _cache) => {
+        return vue.openBlock(), vue.createElementBlock("view", { class: "detail-main" }, [
+          vue.createElementVNode("view", { class: "detailTitle" }, " 系统公告 "),
+          vue.createElementVNode("view", { class: "time" }, " 05-06 06:16 "),
+          vue.createElementVNode("view", { class: "content_one content" }, " 据交通厅发布信息称：从2012年5.1国际劳动节开始，各类大型客车、中型客车、大型货车(A1,A2,B1,B2)等驾驶证人或校车工作人员的驾驶证年审由原来的两年一审，改为一年一审。有不少市民得知消息后纷纷致电或前往车管所咨询具体驾驶证年审的办理流程。 "),
+          vue.createElementVNode("view", { class: "content_two content" }, " 交通部门提醒，以上提到的相关驾驶人应该核查自己的驾驶证，如果符合驾驶证年审要求的要及时办理驾驶证年审手续，以免出现不必要的损失造成驾驶证被注销了。 "),
+          vue.createElementVNode("view", { class: "content_three content" }, " 宝安车管家小编咨询了市车管所工作人员，车管所工作人员告诉我们，以上驾驶证年审的日期为初次领证日期。即2012年5月1日后，新考领的以上驾驶证，一律可以顺延迟一年时间，必须进行驾驶证年审。对于2012年5月1日前的驾驶证年审，A1,A2,B1,B2驾驶证已经年审过的可以下次年审日期顺推迟一年，原来规定的2年一审有效期作废。 ")
+        ]);
+      };
+    }
+  });
+  const Subpck_messageDetailIndex = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/subpck_message/detail/index.vue"]]);
+  const _sfc_main$1 = /* @__PURE__ */ vue.defineComponent({
+    __name: "index",
+    setup(__props) {
+      const id = vue.ref("");
+      const taskDetail = vue.ref();
+      const getTaskDetail = async () => {
+        const result = await getTaskDetailApi(id.value);
+        formatAppLog("log", "at subpck_task/detail/index.vue:199", result.data.data);
+        taskDetail.value = result.data.data;
+      };
+      onLoad((e) => {
+        id.value = e.id;
+        getTaskDetail();
+      });
+      const abnormal = vue.ref(false);
+      const Delivery = vue.ref(false);
+      const Takedelivery = vue.ref(false);
+      const transport = vue.ref(false);
+      const Driver = vue.ref(false);
+      return (_ctx, _cache) => {
+        return taskDetail.value ? (vue.openBlock(), vue.createElementBlock("view", {
+          key: 0,
+          class: "app-main"
+        }, [
+          vue.createElementVNode("view", { class: "infoList" }, [
+            vue.createElementVNode("view", { class: "information" }, [
+              vue.createElementVNode("view", { class: "Basic" }, [
+                vue.createElementVNode("text", { class: "info" }, "基本信息"),
+                vue.createElementVNode(
+                  "text",
+                  { class: "transportTask" },
+                  "(任务编号:" + vue.toDisplayString(taskDetail.value.transportTaskId) + ")",
+                  1
+                  /* TEXT */
+                )
+              ]),
+              vue.createElementVNode("text", { class: "iconfont icon-add" })
+            ])
+          ]),
+          vue.createElementVNode("view", { class: "infoList" }, [
+            vue.createElementVNode("view", { class: "information" }, [
+              vue.createElementVNode("view", { class: "Basic" }, [
+                vue.createElementVNode("text", { class: "info" }, "司机信息")
+              ]),
+              vue.createElementVNode(
+                "text",
+                {
+                  class: vue.normalizeClass(["iconfont", Driver.value ? "icon-Reduction" : "icon-add"]),
+                  onClick: _cache[0] || (_cache[0] = ($event) => Driver.value = !Driver.value)
+                },
+                null,
+                2
+                /* CLASS */
+              )
+            ]),
+            vue.withDirectives(vue.createElementVNode(
+              "view",
+              { class: "Driverinfor" },
+              [
+                vue.createElementVNode("view", { class: "Licenseplatenumber cart" }, [
+                  vue.createElementVNode("text", { class: "title" }, "车牌号"),
+                  vue.createElementVNode(
+                    "text",
+                    { class: "dose" },
+                    vue.toDisplayString(taskDetail.value.licensePlate),
+                    1
+                    /* TEXT */
+                  )
+                ]),
+                vue.createElementVNode("view", { class: "DriverName cart" }, [
+                  vue.createElementVNode("text", { class: "title" }, "司机姓名"),
+                  vue.createElementVNode(
+                    "text",
+                    { class: "dose" },
+                    vue.toDisplayString(taskDetail.value.driverName),
+                    1
+                    /* TEXT */
+                  )
+                ])
+              ],
+              512
+              /* NEED_PATCH */
+            ), [
+              [vue.vShow, Driver.value]
+            ])
+          ]),
+          vue.createElementVNode("view", { class: "infoList" }, [
+            vue.createElementVNode("view", { class: "information" }, [
+              vue.createElementVNode("view", { class: "Basic" }, [
+                vue.createElementVNode("text", { class: "info" }, "运输路线")
+              ]),
+              vue.createElementVNode(
+                "text",
+                {
+                  class: vue.normalizeClass(["iconfont", transport.value ? "icon-Reduction" : "icon-add"]),
+                  onClick: _cache[1] || (_cache[1] = ($event) => transport.value = !transport.value)
+                },
+                null,
+                2
+                /* CLASS */
+              )
+            ]),
+            vue.withDirectives(vue.createElementVNode(
+              "view",
+              { class: "Transportroute" },
+              [
+                vue.createElementVNode("view", { class: "Startingplace cart" }, [
+                  vue.createElementVNode(
+                    "text",
+                    { class: "title" },
+                    vue.toDisplayString(taskDetail.value.startProvince),
+                    1
+                    /* TEXT */
+                  ),
+                  vue.createElementVNode(
+                    "text",
+                    { class: "dose" },
+                    vue.toDisplayString(taskDetail.value.startCity),
+                    1
+                    /* TEXT */
+                  )
+                ]),
+                vue.createElementVNode("text", { class: "iconfont icon-Right" }),
+                vue.createElementVNode("view", { class: "destination cart" }, [
+                  vue.createElementVNode(
+                    "text",
+                    { class: "title" },
+                    vue.toDisplayString(taskDetail.value.endProvince),
+                    1
+                    /* TEXT */
+                  ),
+                  vue.createElementVNode(
+                    "text",
+                    { class: "dose" },
+                    vue.toDisplayString(taskDetail.value.endAddress),
+                    1
+                    /* TEXT */
+                  )
+                ])
+              ],
+              512
+              /* NEED_PATCH */
+            ), [
+              [vue.vShow, transport.value]
+            ])
+          ]),
+          vue.createElementVNode("view", { class: "infoList" }, [
+            vue.createElementVNode("view", { class: "information" }, [
+              vue.createElementVNode("view", { class: "Basic" }, [
+                vue.createElementVNode("text", { class: "info" }, "提货信息")
+              ]),
+              vue.createElementVNode(
+                "text",
+                {
+                  class: vue.normalizeClass(["iconfont", Takedelivery.value ? "icon-Reduction" : "icon-add"]),
+                  onClick: _cache[2] || (_cache[2] = ($event) => Takedelivery.value = !Takedelivery.value)
+                },
+                null,
+                2
+                /* CLASS */
+              )
+            ]),
+            vue.withDirectives(vue.createElementVNode(
+              "view",
+              { class: "Deliveryinformation cart" },
+              [
+                vue.createElementVNode("view", { class: "Receiptvoucher" }, [
+                  vue.createElementVNode("text", { class: "title" }, "回单凭证"),
+                  vue.createElementVNode("view", { class: "ReceiptImg" }, [
+                    (vue.openBlock(true), vue.createElementBlock(
+                      vue.Fragment,
+                      null,
+                      vue.renderList(taskDetail.value.cargoPickUpPictureList, (item, index) => {
+                        return vue.openBlock(), vue.createElementBlock("image", {
+                          key: index,
+                          src: item.url,
+                          class: "img",
+                          mode: ""
+                        }, null, 8, ["src"]);
+                      }),
+                      128
+                      /* KEYED_FRAGMENT */
+                    ))
+                  ])
+                ]),
+                vue.createElementVNode("view", { class: "product cart" }, [
+                  vue.createElementVNode("text", { class: "title" }, "货品照片"),
+                  vue.createElementVNode("view", { class: "ReceiptImg" }, [
+                    (vue.openBlock(true), vue.createElementBlock(
+                      vue.Fragment,
+                      null,
+                      vue.renderList(taskDetail.value.cargoPictureList, (item, index) => {
+                        return vue.openBlock(), vue.createElementBlock("image", {
+                          class: "img",
+                          key: index,
+                          src: item.url,
+                          mode: ""
+                        }, null, 8, ["src"]);
+                      }),
+                      128
+                      /* KEYED_FRAGMENT */
+                    ))
+                  ])
+                ])
+              ],
+              512
+              /* NEED_PATCH */
+            ), [
+              [vue.vShow, Takedelivery.value]
+            ])
+          ]),
+          vue.createElementVNode("view", { class: "infoList" }, [
+            vue.createElementVNode("view", { class: "information" }, [
+              vue.createElementVNode("view", { class: "Basic" }, [
+                vue.createElementVNode("text", { class: "info" }, "交货信息")
+              ]),
+              vue.createElementVNode(
+                "text",
+                {
+                  class: vue.normalizeClass(["iconfont", Delivery.value ? "icon-Reduction" : "icon-add"]),
+                  onClick: _cache[3] || (_cache[3] = ($event) => Delivery.value = !Delivery.value)
+                },
+                null,
+                2
+                /* CLASS */
+              )
+            ]),
+            vue.withDirectives(vue.createElementVNode(
+              "view",
+              { class: "Deliveryinformation cart" },
+              [
+                vue.createElementVNode("view", { class: "Receiptvoucher" }, [
+                  vue.createElementVNode("text", { class: "title" }, "回单凭证"),
+                  vue.createElementVNode("view", { class: "ReceiptImg" }, [
+                    (vue.openBlock(true), vue.createElementBlock(
+                      vue.Fragment,
+                      null,
+                      vue.renderList(taskDetail.value.cargoPickUpPictureList, (item, index) => {
+                        return vue.openBlock(), vue.createElementBlock("image", {
+                          key: index,
+                          src: item.url,
+                          class: "img",
+                          mode: ""
+                        }, null, 8, ["src"]);
+                      }),
+                      128
+                      /* KEYED_FRAGMENT */
+                    ))
+                  ])
+                ]),
+                vue.createElementVNode("view", { class: "product cart" }, [
+                  vue.createElementVNode("text", { class: "title" }, "货品照片"),
+                  vue.createElementVNode("view", { class: "ReceiptImg" }, [
+                    (vue.openBlock(true), vue.createElementBlock(
+                      vue.Fragment,
+                      null,
+                      vue.renderList(taskDetail.value.cargoPictureList, (item, index) => {
+                        return vue.openBlock(), vue.createElementBlock("image", {
+                          class: "img",
+                          key: index,
+                          src: item.url,
+                          mode: ""
+                        }, null, 8, ["src"]);
+                      }),
+                      128
+                      /* KEYED_FRAGMENT */
+                    ))
+                  ])
+                ])
+              ],
+              512
+              /* NEED_PATCH */
+            ), [
+              [vue.vShow, Delivery.value]
+            ])
+          ]),
+          vue.createElementVNode("view", { class: "infoList" }, [
+            vue.createElementVNode("view", { class: "information" }, [
+              vue.createElementVNode("view", { class: "Basic" }, [
+                vue.createElementVNode("text", { class: "info" }, "物品信息")
+              ]),
+              vue.createElementVNode("text", { class: "iconfont icon-add" })
+            ])
+          ]),
+          vue.createElementVNode("view", { class: "infoList" }, [
+            vue.createElementVNode("view", { class: "information" }, [
+              vue.createElementVNode("view", { class: "Basic" }, [
+                vue.createElementVNode("text", { class: "info" }, "异常信息")
+              ]),
+              vue.createElementVNode(
+                "text",
+                {
+                  class: vue.normalizeClass(["iconfont", abnormal.value ? "icon-Reduction" : "icon-add"]),
+                  onClick: _cache[4] || (_cache[4] = ($event) => abnormal.value = !abnormal.value)
+                },
+                null,
+                2
+                /* CLASS */
+              )
+            ]),
+            (vue.openBlock(true), vue.createElementBlock(
+              vue.Fragment,
+              null,
+              vue.renderList(taskDetail.value.exceptionList, (item, index) => {
+                return vue.withDirectives((vue.openBlock(), vue.createElementBlock("view", {
+                  class: "abnormalCart",
+                  key: index
+                }, [
+                  vue.createElementVNode("view", { class: "cart" }, [
+                    vue.createElementVNode("text", { class: "title" }, "上报时间"),
+                    vue.createElementVNode(
+                      "text",
+                      { class: "dose" },
+                      vue.toDisplayString(item.exceptionTime),
+                      1
+                      /* TEXT */
+                    )
+                  ]),
+                  vue.createElementVNode("view", { class: "cart" }, [
+                    vue.createElementVNode("text", { class: "title" }, "异常类型"),
+                    vue.createElementVNode(
+                      "text",
+                      { class: "dose" },
+                      vue.toDisplayString(item.exceptionType),
+                      1
+                      /* TEXT */
+                    ),
+                    vue.createElementVNode("text", { class: "iconfont icon-left" })
+                  ]),
+                  vue.createElementVNode("view", { class: "cart" }, [
+                    vue.createElementVNode("text", { class: "title" }, "处理结果"),
+                    vue.createElementVNode(
+                      "text",
+                      { class: "dose" },
+                      vue.toDisplayString(item.handleResult),
+                      1
+                      /* TEXT */
+                    )
+                  ])
+                ])), [
+                  [vue.vShow, abnormal.value]
+                ]);
+              }),
+              128
+              /* KEYED_FRAGMENT */
+            ))
+          ])
+        ])) : vue.createCommentVNode("v-if", true);
+      };
+    }
+  });
+  const Subpck_taskDetailIndex = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__file", "E:/学习/学习/实训/实训二/uni-app/物流项目/Materialflow/subpck_task/detail/index.vue"]]);
   __definePage("pages/login/login", PagesLoginLogin);
   __definePage("pages/my/index", PagesMyIndex);
   __definePage("pages/message/index", PagesMessageIndex);
   __definePage("pages/task/index", PagesTaskIndex);
+  __definePage("subpck_user/settings/index", Subpck_userSettingsIndex);
+  __definePage("subpck_user/task/index", Subpck_userTaskIndex);
+  __definePage("subpck_user/tuck/index", Subpck_userTuckIndex);
+  __definePage("subpck_message/detail/index", Subpck_messageDetailIndex);
+  __definePage("subpck_task/detail/index", Subpck_taskDetailIndex);
   const _sfc_main = {
     onLaunch: function() {
       formatAppLog("log", "at App.vue:4", "App Launch");

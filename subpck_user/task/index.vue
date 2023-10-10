@@ -94,4 +94,12 @@
 		color: $uni-neutral-SecondaryText-color;
 		font-size: $uni-mainBody-fontsize;
 	}
+
+	.app-main {
+		/* #ifdef APP */
+		// height: calc(100vh - 34px);
+		height: 100vh;
+		/* #endif */
+		height: calc(100vh - 44px);
+	}
 </style>

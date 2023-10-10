@@ -1,0 +1,19 @@
+import uniFetch from '@/utils/request'
+import type { TaskDetailResponse, taskListType, taskData } from '@/types/task'
+import type { responseData } from '@/types/request'
+
+// 任务详情
+export const getTaskDetailApi = (id: string) => {
+	return uniFetch<responseData<TaskDetailResponse>>({
+		url: `/driver/tasks/details/${id}`,
+		method: 'GET',
+	})
+}
+
+//任务列表
+export const getTaskListApi = (data: taskListType) => {
+	return uniFetch<responseData<taskData>>({
+		url: `/driver/tasks/list?page=${data.page}&pageSize=${data.pageSize}&status=${data.status}`,
+		method: 'GET',
+	})
+}
