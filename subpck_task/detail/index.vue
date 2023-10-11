@@ -4,11 +4,49 @@
 			<view class="information">
 				<view class="Basic">
 					<text class="info">基本信息</text>
-					<text class="transportTask"
-						>(任务编号:{{ taskDetail.transportTaskId }})</text
-					>
+					<text class="transportTask">
+						(任务编号:{{ taskDetail.transportTaskId }})
+					</text>
 				</view>
-				<text class="iconfont icon-add"></text>
+				<text
+					class="iconfont"
+					:class="Basics ? 'icon-Reduction' : 'icon-add'"
+					@click="Basics = !Basics"
+				></text>
+			</view>
+			<view v-show="Basics" class="Basics">
+				<view class="address">
+					<view class="start line">
+						{{ taskDetail.startAddress }}
+					</view>
+					<view class="end line"> {{ taskDetail.endAddress }} </view>
+				</view>
+
+				<view class="border"> </view>
+				<uni-list :border="false">
+					<uni-list-item
+						:border="false"
+						title="联系人"
+						:rightText="taskDetail.startHandoverName"
+					></uni-list-item>
+					<uni-list-item :border="false" title="联系电话">
+						<template v-slot:footer>
+							{{ taskDetail.startHandoverPhone }}
+							<text class="iconfont icon-phone"></text>
+						</template>
+					</uni-list-item>
+					<uni-list-item
+						:border="false"
+						title="提货时间"
+						:rightText="taskDetail.planDepartureTime"
+					></uni-list-item>
+					<uni-list-item
+						:border="false"
+						title="预计送达时间"
+						:rightText="taskDetail.planArrivalTime"
+					>
+					</uni-list-item>
+				</uni-list>
 			</view>
 		</view>
 
@@ -218,6 +256,9 @@
 
 	//司机的显示和隐藏 false 为隐藏 true 为显示
 	const Driver = ref(false)
+
+	//基本信息的显示和隐藏 false 为隐藏 true 为显示
+	const Basics = ref(false)
 </script>
 
 <style lang="scss">
@@ -259,7 +300,72 @@
 					font-weight: 600;
 				}
 			}
+			.Basics {
+				.address {
+					margin: 42rpx 0;
+					margin-left: 17rpx;
+					position: relative;
+					border-left: 2rpx dashed $uni-main-primary;
+					.icon-phone {
+						margin-top: 5rpx;
+						margin-left: 5rpx;
+					}
+					&::before,
+					&::after {
+						width: 44rpx;
+						height: 44rpx;
+						border-radius: 22rpx;
+						position: absolute;
+						left: -22rpx;
+						display: flex;
+						align-items: center;
+						font-family: PingFangSC-Medium;
+						font-weight: 500;
+						font-size: 24rpx;
+						justify-content: center;
+						color: $uni-neutral-whiteColor;
+					}
+					&::after {
+						content: '终';
+						background-color: $uni-main-primary;
+						bottom: -1rpx;
+					}
+					&::before {
+						content: '起';
+						background: $uni-neutral-mainText-color;
+						top: -1rpx;
+					}
+					.line {
+						margin: 35rpx 0;
+						font-family: PingFangSC-Regular;
+						font-weight: 400;
+						font-size: $uni-mainBody-fontsize;
+						color: $uni-neutral-SecondaryText-color;
+						margin-left: 43rpx;
+					}
+				}
+				.border {
+					height: 2rpx;
+					background-color: $uni-neutral-background;
+				}
+				::v-deep .uni-list-item__container {
+					padding-left: 0;
+					padding-right: 0;
+				}
+				::v-deep .uni-list-item__content-title {
+					font-family: PingFangSC-Regular;
+					font-weight: 400;
+					font-size: $uni-mainBody-fontsize;
+					color: $uni-neutral-SecondaryText-color;
+				}
 
+				::v-deep .uni-list-item__extra-text {
+					font-family: PingFangSC-Regular;
+					font-weight: 400;
+					font-size: $uni-mainBody-fontsize;
+					color: $uni-neutral-mainText-color;
+				}
+			}
 			.Driverinfor {
 				.cart {
 					display: flex;

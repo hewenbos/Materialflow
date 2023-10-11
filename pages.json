@@ -1,11 +1,14 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/login/login",
+			"path": "pages/task/index",
 			"style": {
-				"navigationBarBackgroundColor": "#fff"
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
 			}
-		}, {
+
+		},
+		{
 			"path": "pages/my/index",
 			"style": {
 				"navigationBarTitleText": "",
@@ -22,13 +25,13 @@
 				}
 			}
 
-		}, {
-			"path": "pages/task/index",
-			"style": {
-				"navigationStyle": "custom",
-				"enablePullDownRefresh": false
-			}
+		},
 
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarBackgroundColor": "#fff"
+			}
 		}
 	],
 	"subPackages": [{
@@ -63,23 +66,32 @@
 		{
 			"root": "subpck_task",
 			"pages": [{
-				"path": "detail/index",
-				"style": {
-					"navigationBarTitleText": "任务详情"
-				}
-			}, {
+					"path": "detail/index",
+					"style": {
+						"navigationBarTitleText": "任务详情"
+					}
+				}, {
 
-				"path": "addtask/index",
-				"style": {
-					"navigationBarTitleText": "提交任务"
-				}
-			}, {
+					"path": "addtask/index",
+					"style": {
+						"navigationBarTitleText": "提交任务"
+					}
+				},
+				{
 
-				"path": "taskdetail/index",
-				"style": {
-					"navigationBarTitleText": "任务详情"
+					"path": "taskdetail/index",
+					"style": {
+						"navigationBarTitleText": "任务详情"
+					}
+				},
+				{
+
+					"path": "Delay/index",
+					"style": {
+						"navigationBarTitleText": "延迟提货"
+					}
 				}
-			}]
+			]
 		}
 	],
 	"globalStyle": {

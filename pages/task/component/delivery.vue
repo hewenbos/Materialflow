@@ -14,9 +14,12 @@
 					<view class="task">
 						任务编号：<text class="id">{{ item.id }}</text>
 					</view>
-					<text class="Putoff" v-if="item.actualDepartureTime != null"
-						>以延迟</text
+					<text
+						class="Putoff"
+						v-if="item.actualDepartureTime != null"
 					>
+						以延迟
+					</text>
 				</view>
 
 				<navigator
@@ -34,7 +37,7 @@
 				<view class="footer">
 					<view class="time">
 						<text class="timer">提货时间</text>
-						<view class="date">2022.05.04 13:00 </view>
+						<view class="date">{{ item.planDepartureTime }}</view>
 					</view>
 					<navigator
 						v-if="item.enablePickUp"
@@ -166,6 +169,7 @@
 				}
 				.address {
 					margin: 42rpx 0;
+					margin-left: 17rpx;
 					position: relative;
 					border-left: 2rpx dashed $uni-main-primary;
 					&::before,
@@ -174,7 +178,7 @@
 						height: 44rpx;
 						border-radius: 22rpx;
 						position: absolute;
-						left: -24rpx;
+						left: -22rpx;
 						display: flex;
 						align-items: center;
 						font-family: PingFangSC-Medium;

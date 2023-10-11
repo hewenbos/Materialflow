@@ -276,3 +276,56 @@ export type Itemtask = {
 	transportTaskId: string
 	[property: string]: any
 }
+
+//货物
+export type cargoType = {
+	page: number
+	pageSize: number
+	taskId: string
+	transportOrderId?: string | number
+}
+
+//货物响应数据
+export type cargoResponseType = {
+	/**
+	 * 总条目数
+	 */
+	counts: number | string
+	/**
+	 * 数据列表
+	 */
+	items: cargoItem[]
+	/**
+	 * 页码
+	 */
+	page: number
+	/**
+	 * 总页数
+	 */
+	pages: number
+	/**
+	 * 页尺寸
+	 */
+	pageSize: number
+	[property: string]: any
+}
+
+export type cargoItem = {
+	/**
+	 * 数量
+	 */
+	count: number
+	/**
+	 * 创建时间
+	 */
+	createTime: string
+	/**
+	 * 运单id
+	 */
+	id: string
+	/**
+	 * 货品总重量
+	 */
+	totalWeight: number
+	[property: string]: any
+}
